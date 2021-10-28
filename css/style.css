@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@1,700&display=swap');
 
 *{
     padding: 0;
@@ -79,6 +79,51 @@
      color: white;
      text-align: center;
  }
+
+ /* quines soos */
+ .nosotros {
+     padding: 10px 100px;
+ }
+
+ .titulo {
+    font-family: 'Amaranth', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ .linea {
+     margin: 10px auto;
+     width: 200px;
+     height: 6px;
+     background-color: #00857a;
+     border-radius: 5px;
+     margin-bottom: 30px;
+ }
+
+ .button {
+     background-color: #00857a;
+     display: block;
+     width: 200px;
+     height: 40px;
+     margin: 40px auto 0;
+     border-radius: 10px;
+     text-decoration: none;
+     line-height: 15px;
+     text-align: center;
+     padding: 10px;
+     font-weight: bolder;
+     color: white;
+     margin-bottom: 20px;
+ }
+
+ .button:hover {
+     background-color: #00453f;
+    box-shadow: 5px 5px 5px gray;
+ }
+
 
  @media(max-width: 700px){
 
